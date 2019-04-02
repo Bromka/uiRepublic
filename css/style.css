@@ -1,0 +1,300 @@
+body, html{
+   
+    font-family: 'Source Sans Pro', sans-serif;
+  
+}
+body{
+    background: url(../image/Shape1.png) 100% -10% no-repeat, url(../image/Shape1.png) -40% 40%  no-repeat, url(../image/Shape1.png) 100% 115%  no-repeat;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.redb{
+        border: 1px solid red;
+}
+img{
+    max-width: 100%;
+}
+
+
+
+/* header */
+.header{
+    margin-top: 50px;
+}
+
+#header__findform{
+    background: none;
+}
+.logo{
+  max-width: 100%;
+  position: relative;
+  bottom:20%;
+}
+.menu{
+    list-style-type: none;
+}
+
+.menu__li__a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: 'Source Sans Pro';
+    transition: 1s all ease;
+}
+
+.menu__li__a:hover{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: 'Source Sans Pro';
+    transition: 1s all ease;
+    
+
+}
+.menu__li:hover{
+    background: rgb(252, 195, 195);
+}
+
+.header__findform{
+    border: 2px solid #555555;
+    border-radius: 50px;
+    font-weight: 200;
+    font-style: italic;
+
+}
+.fa-search{
+    position: relative;
+    left: -30px;
+    top: 13px;
+    color: #555555;
+
+    
+}
+.header__bg__image{
+position: absolute;
+background: url(image/Shape1.png) no-repeat;
+flex: auto;
+z-index: -10;
+left:65%;
+bottom: 0%;
+max-width: 150%;
+max-height: 150%;
+}
+
+/* секция1 */
+.section1, .section2, .section3, .section4{
+    font-family: 'Source Sans Pro';
+}
+.section1__header, .section2__header{
+    font-size: 70px;
+    font-weight: bold;
+
+}
+.section1__price, h3{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.section1__button, .section2__button, .section3__button{
+    line-height: 90px;
+    width: 300px;
+    font-weight: bold;
+    border-radius: 0;
+    background: #53c0c7;
+    border: none;
+}
+
+.section1__row{
+    margin-top: 110px;
+}
+.section2{
+    margin-top: 210px;
+}
+
+.fb{
+    font-weight: bold;
+}
+
+.fu{
+    text-decoration: underline;
+}
+
+.section2__image{
+    position: relative;
+    left: -10%;
+}
+.section2__t{
+    position: relative;
+    bottom: 30px;
+}
+.section2__button{
+    margin-top: 60px;
+}
+.section2__text{
+    margin-top: 30px;
+}
+
+/* секция3 */
+.section3__header{
+    font-size: 54px;
+    margin-top: 200px;
+    font-weight: 400;
+}
+
+.section3{
+    font-weight: 700;
+    font-family: 'Source Sans Pro';
+}
+.section3__items{
+    margin-top: 140px;
+}
+.section3__items_img{
+    position: relative;
+}
+.section3__items_img_nameitem{
+    border-bottom: 0.2rem solid black;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+}
+.section3__items__text{
+    font-weight: normal;
+}
+.redt{
+    color: red;
+}
+.section3__items_head{
+    margin-top: 2rem;
+}
+
+/* секция4 */
+
+.section4__opt__img{
+   
+    margin-top: 150px;
+
+    
+}
+.section4__textinimg{
+    position: relative;
+  
+    width: 50%;
+    margin: auto auto;
+}
+.section4__opt__img_text{
+    display: inline-block;
+    border-bottom: 0.2rem solid black;
+
+}
+.img__1{
+    
+    width: 542px;
+    height: 542px;
+    background: url(../image/Layer9.png);
+}
+
+.img__2{
+    
+    width: 542px;
+    height: 259px;
+    background: url(../image/Layer10.png);
+}
+
+.img__3{
+    margin-top: 24px;
+    width: 542px;
+    height: 259px;
+    background: url(../image/Layer11.png);
+}
+
+.img__4{
+ 
+    width: 353px;
+    height: 383px;
+    background: url(../image/Layer13.png);
+    color: white;
+
+}
+
+.img__5{
+ 
+    width: 734px;
+    height: 383px;
+    background: url(../image/Layer12.png);
+}
+.section4__opt__img, .section4__opt__img__2{
+    max-width: 100%;
+}
+
+.section4__opt__img__2{
+    margin-top: 25px;
+
+    
+}
+
+.section4__opt__img_text__4{
+    border-bottom: 0.2rem solid white;
+  
+}
+.section4{
+    padding-bottom: 160px;
+}
+
+/* секкия5 */
+
+.section5{
+
+    background: #f4f5f5;
+   
+    padding-bottom: 160px;
+}
+
+.input__form{
+    background-color: #f4f5f5;
+    border: 0px;
+    border-bottom: 2px solid black;
+    border-radius: 0px;
+}
+.mt50{
+    margin-top: 0px;
+}
+.section5__button{
+    width: 100%;
+    background: #f9a34c;
+    line-height: 85px;
+    padding: 0 0;
+    box-sizing: content-box;
+}
+.pd15{
+    padding: 0 15px;
+}
+
+.pb100{
+    padding-top: 100px;
+}
+
+
+/* футер */
+
+.column2{
+    column-count: 2;
+    max-width: 270px;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 0px;
+    
+ 
+}
+.pd1r {
+    display: block;
+    padding: 1rem 0;
+}
+.text2{
+    font-weight: normal;
+    font-size: 16px;
+    padding-left: 0px;
+}
+footer{
+    padding-top: 115px;
+}
+
